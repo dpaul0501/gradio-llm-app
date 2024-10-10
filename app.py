@@ -12,7 +12,7 @@ iface = gr.Interface(
     fn=generate_text,
     inputs="text",
     outputs="text",
-    title="LLM Text Generator",
+    title="LLM Text Generator using GPT-2",
     description="Generate text using a pre-trained GPT-2 model."
 )
 
